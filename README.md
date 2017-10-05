@@ -90,18 +90,15 @@ enum
 
 ## Technologies
 
-- Objective - C
-- Google Firebase
-- Socket IO
-- Fabric
-- Crashlytics
-
 #### Third Party Libraries
 - ``` 'AFNetworking'```  – HTTP Client
 - ``` 'MTBBarcodeScanner'```  – QR-Code/Barcode scanner
 - ``` 'SVProgressHUD'```  – Custom Loader
-- ``` 'CoreBitcoin'```  fork of CoreBitcoin (with QTUM functionality)
+- ``` 'CoreBitcoin'```   Bitcoin toolkit for Objective-C
 
 #### Core Bitcoin
-The ios fork CoreBitcoin library is a Objective - C implementation of the Bitcoin protocol, which allows it to maintain a QTUM wallet and send/receive transactions without needing a local copy of Bitcoin Core. It comes with full documentation and some example apps showing how to use it.
+
+CoreBitcoin implements Bitcoin protocol in Objective-C and provides many additional APIs to make great apps.
+CoreBitcoin deliberately implements as much as possible directly in Objective-C with limited dependency on OpenSSL. This gives everyone an opportunity to learn Bitcoin on a clean codebase and enables all Mac and iOS developers to extend and improve Bitcoin protocol.
+
 Link: https://github.com/oleganza/CoreBitcoin
