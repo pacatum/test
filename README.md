@@ -7,14 +7,14 @@ Designed with stability, modularity and interoperability in mind, Qtum is the fo
 1) Clone project<br/>
 2) Install CocoaPods
 
-Для установки CocoaPods на Ваш компьютер.
+To install CocoaPods on your computer.
 
 ```bash
 $ gem install cocoapods
 ```
 > ios version 8+.
 
-Далее в териминале заходим в папку проекта и вводим команду для загрузки и подключения библиотек
+Using Terminal open project folder and enter following command to load and connect required libraries
 
 ```bash
 $ pod install
@@ -29,13 +29,13 @@ $ brew update
 $ brew install carthage
 ```
 
-Далее в териминале заходим в папку проекта и вводим команду для загрузки и подключения библиотек.
+Using Terminal open project folder and enter following command to load and connect required libraries
 
 ```bash
 $ carthage update --platform iOS
 ```
 
-## Изменение ссылок на API
+## Change API URLs
 
 Change return value in ```baseURL``` method in AppSettings.m like this
 
@@ -47,11 +47,11 @@ Change return value in ```baseURL``` method in AppSettings.m like this
 }
 ```
 
-## Изменение параметров сети
+## Change network parameters
 
-#### Изменение testnet/mainnet
+#### Switch network testnet/mainnet
 
-В файле AppSettings.m в методе ```setup``` поменять ```[NSUserDefaults saveIsMainnetSetting:NO];``` на ```YES/NO```
+In AppSettings.m file and ```setup``` method change ```[NSUserDefaults saveIsMainnetSetting:NO];``` to ```YES/NO```
 
 ```objective-c
 -(void)setup {
@@ -72,9 +72,9 @@ Change return value in ```baseURL``` method in AppSettings.m like this
 }
 ```
 
-#### Изменение параметров сети
+#### Change network parameters
 
-В файле BTCAddress+Extension.m  поменять значение в enum на необходимые
+In BTCAddress+Extension.m file set required enum value
 
 ```objective-c
 enum
