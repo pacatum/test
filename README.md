@@ -88,40 +88,20 @@ enum
 };
 ```
 
-<b>Gradle version</b><br/>
-```
-com.android.tools.build:gradle:2.3.3
-```
+## Technologies
 
-<b>Minimal Android SDK Version</b><br/>
-```
-19
-```
+- Objective - C
+- Google Firebase
+- Socket IO
+- Fabric
+- Crashlytics
 
-<b>Build Tools version</b><br/>
-```
-25.0.3
-``` 
+#### Third Party Libraries
+- ``` 'AFNetworking'```  – HTTP Client
+- ``` 'MTBBarcodeScanner'```  – QR-Code/Barcode scanner
+- ``` 'SVProgressHUD'```  – Custom Loader
+- ``` 'CoreBitcoin'```  fork of CoreBitcoin (with QTUM functionality)
 
-<b>Technologies</b><br/>
-- Java (v. 7)
-- Google Firebase (v. 9.0.2)
-- Java RX (v. 1.1.6, Android RX – v. 1.2.1)
-- Retrofit 2 (v. 2.1.0)
-- Socket IO (v. 0.8.3)
-
-<b>Third Party Libraries (gradle)</b><br/>
-- ``` 'com.github.designsters:android-fork-bitcoinj:1.+'```  – fork bitcoinj (with QTUM functionality)
-- ``` 'com.google.zxing:core:3.2.1'```  – QR-Code/Barcode scanner
-- ``` 'io.reactivex:rxjava:1.1.6', 'io.reactivex:rxandroid:1.2.1'```  – Java RX
-- ``` 'io.socket:socket.io-client:0.8.3'```  - Socket IO Client
-- ``` 'com.squareup.retrofit2:retrofit:2.1.0'```  HTTP Client
-
-<b>Android Fork BitcoinJ</b><br/>
-The android fork bitcoinj library is a Java implementation of the Bitcoin protocol, which allows it to maintain a QTUM wallet and send/receive transactions without needing a local copy of Bitcoin Core. It comes with full documentation and some example apps showing how to use it<br/>
-Link: https://github.com/bitcoinj/bitcoinj
-
-<b>BitcoinJ Technologies</b><br/>
-- Java 6 for the core modules, Java 8 for everything else
-- Maven 3+ - for building the project
-- Google Protocol Buffers - for use with serialization and hardware communications
+#### Core Bitcoin
+The ios fork CoreBitcoin library is a Objective - C implementation of the Bitcoin protocol, which allows it to maintain a QTUM wallet and send/receive transactions without needing a local copy of Bitcoin Core. It comes with full documentation and some example apps showing how to use it.
+Link: https://github.com/oleganza/CoreBitcoin
